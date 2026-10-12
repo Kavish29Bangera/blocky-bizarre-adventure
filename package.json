@@ -1,0 +1,14 @@
+{
+  "name": "blocky-bizarre-adventure",
+  "version": "1.0.0",
+  "description": "Blocky Bizarre Adventure - a voxel Stand-battle game with a co-op relay server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}

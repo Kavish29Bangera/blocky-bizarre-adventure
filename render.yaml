@@ -1,0 +1,10 @@
+# Render blueprint: one free web service that serves the game page and runs the co-op server.
+# In Render: New > Blueprint > pick this repository. No other settings are needed.
+services:
+  - type: web
+    name: blocky-bizarre-adventure
+    runtime: node
+    plan: free
+    buildCommand: "echo no build step"
+    startCommand: node server.js
+    healthCheckPath: /
